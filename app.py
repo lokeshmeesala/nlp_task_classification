@@ -4,8 +4,8 @@ import pickle
 import pandas as pd
 import nltk
 import re
-import nltk
 nltk.download('stopwords')
+from nltk.corpus import stopwords
 from sklearn.externals import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
 
