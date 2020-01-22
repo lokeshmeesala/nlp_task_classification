@@ -5,6 +5,7 @@ import pandas as pd
 import nltk
 import re
 nltk.download('stopwords')
+nltk.download('wordnet')
 from nltk.corpus import stopwords
 from sklearn.externals import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
